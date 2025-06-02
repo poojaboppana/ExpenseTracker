@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ExpenseTracker</title>
+    <link rel="stylesheet" href="./ExpenseTracker.css">
 </head>
 <body>
     <div id="ExpenseTracker">
-        <input type="number" id="income">
+        <h1>Expense ExpenseTracker</h1>
+        <input type="number" id="income" placeholder="Enter your income">
          <button type="submit" onclick="submitIncome()">AddIncome</button>
             <div id="incomeDisplay"></div>
-           <input type="number" id="expense">
+              <h3 id="summary"></h3>
+           <input type="number" id="expense" placeholder="Enter your expense">
          <button type="submit" onclick="submitExpense()">AddExpense</button>
     </div>
     <div id="expenseDisplay"></div>

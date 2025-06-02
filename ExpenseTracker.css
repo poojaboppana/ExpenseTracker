@@ -1,0 +1,51 @@
+body{
+    background-color: #131D4F;
+    color: #EFE4D2;
+}
+#ExpenseTracker{
+    background-color: #954C2E;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+input{
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px 10px;
+    text-align: center;
+}
+#incomeDisplay{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    border-radius: 10px;
+    height: 30px;
+    background-color: #71C0BB;
+}
+h3{
+     font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.expdiv{
+    background-color: #FAE3C6;
+    display: flex;
+    gap: 10px;
+    color: black;
+    height: 30px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
