@@ -5,7 +5,7 @@ body{
 #ExpenseTracker{
     background-color: #954C2E;
     width: 500px;
-    height: 300px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -48,4 +48,8 @@ h3{
     padding: 20px;
     border-radius: 20px;
     justify-content: space-between;
+}
+h1{
+    font-size: 40px;
+    color: #DDA853;
 }

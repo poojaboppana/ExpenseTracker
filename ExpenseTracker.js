@@ -11,11 +11,13 @@ function submitExpense(){
    totalexpense +=expense;
    expenses.push({amount: expense, date: new Date().toLocaleString()});
    localStorage.setItem("expenses",JSON.stringify(expenses));
+     expense.innerHTML='';
    display();
    }
    else{
       alert("Enter the Expense greater than 0");
    }
+ 
 }
 function display(){
      const income = JSON.parse(localStorage.getItem("totalIncome")) || 0;
